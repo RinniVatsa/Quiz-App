@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('/Users/apple/Desktop/quiz-app/src/components/Images/duy-pham-Cecb0_8Hx-o-unsplash.jpg') no-repeat center center fixed;
+    background: url('./Images/duy-pham-Cecb0_8Hx-o-unsplash.jpg');
     /* Add your background image */
     background-size: cover;
 }
