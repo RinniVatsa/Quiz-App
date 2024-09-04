@@ -1,0 +1,38 @@
+/* src/components/Result.css */
+
+.result {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.result h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.result p {
+    font-size: 1rem;
+    color: #917890;
+}
+
+.try-again-button {
+    padding: 10px 20px;
+    background-color: #b0ff83;
+    color: rgb(34, 68, 7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.try-again-button:hover {
+    background-color: #abbe00;
+}

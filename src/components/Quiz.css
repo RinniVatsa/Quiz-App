@@ -1,0 +1,35 @@
+/* src/components/Quiz.css */
+
+
+/* src/components/Quiz.css */
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/Users/apple/Desktop/quiz-app/src/components/Images/duy-pham-Cecb0_8Hx-o-unsplash.jpg') no-repeat center center fixed;
+    /* Add your background image */
+    background-size: cover;
+}
+
+.quiz-card {
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    /* Slightly transparent background for readability */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.2rem;
+    color: #ff4f4f;
+}
